@@ -1,0 +1,38 @@
+.navbar {
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .leftControl {
+        display: flex;
+        align-items: center;
+        
+    }
+    .rightControl {
+        display: flex;
+        align-items: center;
+        gap: 10px
+    }
+
+}
+
+.clock {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+
+.logo {
+    width: 128px;
+    height: 28px;
+}
+
+.k-button {
+    margin: 0px;   
+}
+
+.dashboardBtn {
+    border-left: 1px solid white;
+    margin-left: 10px;
+}

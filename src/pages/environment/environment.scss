@@ -1,0 +1,106 @@
+.environment {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.environmentMenu {
+    width: 100%;
+}
+
+.firstRow, .secondRow, .thirdRow{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.selectionBtn {
+    width: 185px;
+    height: 24px;
+    display: flex;
+    padding: 5px 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.selectionText {
+    color: white;
+    font-size: 12px;
+}
+
+.presets {
+    background: linear-gradient(#4AA2CA, #20283B);
+    margin-top: 25px;
+    width: 250px;
+    height: 100vh;
+    border-radius: 3px;
+}
+
+.presetsTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 24px;
+    //border-bottom: 2px white solid;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-width: 2px;
+  }
+
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+
+  .header {
+    display: flex;
+    align-items: center;
+
+  }
+
+
+  .chartControl {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+.chart {
+    width: 450px;
+    margin-top: 20px;
+    justify-self: center;
+    
+}
+
+.settingButton {
+    margin-left: 20px;
+    
+}
+
+.settingBtnTitle {
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+.settingButtonGroup {
+    margin-top: 20px;
+    justify-items: center;
+}
+
+.dataControlButton {
+    margin-top: 40px;
+    justify-items: center;
+}

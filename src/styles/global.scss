@@ -1,0 +1,18 @@
+.main {
+    background-color: black;
+    color: white
+}
+
+.container {
+    display: flex;
+}
+
+.menuContainer {
+    width: 110px;
+    border-right: 1px solid pink;
+}
+
+.contentContainer {
+    padding: 5px 20px;
+    width: 100%;
+}
